@@ -33,7 +33,7 @@ const caseStudies = [
     subtitle: 'Design 4',
     description: 'A data-rich analytics interface using charts, KPIs, and information hierarchy.',
     emoji: '📊',
-    tag: 'Data Viz',
+    tag: 'Data Visualization',
   },
 ];
 
@@ -54,11 +54,10 @@ export default function Home() {
       {/* ── Hero / About ── */}
       <section className="hero" id="about">
         <div className="hero-badge">Software Developer · University of Ottawa</div>
-        <h1 className="hero-name">Hi, I'm <em>Alexander Radar</em></h1>
+        <h1 className="hero-name">Hello, I'm <em>Alexander Radar</em></h1>
         <p className="hero-bio">
-          I'm a Computer Science student with a strong interest in artistic design and web development. 
-          I'm currently exploring the principles of user-centred design, visual communication, and 
-          interaction design as part of my UI/UX coursework at the University of Ottawa.
+          I'm a 3rd year Computer Science student at University of Ottawa<br />with a strong interest in artistic design and web development.<br />
+          My favourite activity is digital art. In my opinion UX/UI is a form art,<br />which furthers my interests in studying web design.
         </p>
         <div className="hero-tags">
           <span className="chip">User Research</span>
@@ -77,7 +76,7 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">How I Work</h2>
           <p className="work-intro">
-            I'm currently enrolled in a UI Design course at the University of Ottawa,
+            I'm currently enrolled in a UI design and analyis course at the University of Ottawa,
             where I'm building a foundation in evidence-based design practice.
           </p>
 
@@ -85,17 +84,17 @@ export default function Home() {
             <div className="process-step">
               <div className="step-number">01</div>
               <h3>Research & Understand</h3>
-              <p>I start by understanding the problem space — who the users are, what they need, and what context they're in.</p>
+              <p>I start by understanding the project software design — who the users are, what catches their attention, and what the goal of the webpage.</p>
             </div>
             <div className="process-step">
               <div className="step-number">02</div>
               <h3>Explore & Ideate</h3>
-              <p>I sketch ideas rapidly, explore multiple directions, and apply visual communication principles — hierarchy, contrast, alignment, and proximity — to guide design decisions.</p>
+              <p>I generate ideas rapidly, explore multiple possible structures, and apply visual communication principles — hierarchy, contrast, alignment, and proximity — to guide design decisions.</p>
             </div>
             <div className="process-step">
               <div className="step-number">03</div>
               <h3>Build & Iterate</h3>
-              <p>Using HTML, CSS, and JavaScript, I look to translate designs into working prototypes and refine them based on feedback.</p>
+              <p>Using HTML, CSS, and JavaScript, I look to translate designs into working prototypes and refine them based on feedback and results.</p>
             </div>
           </div>
         </div>
@@ -106,8 +105,8 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">Case Studies</h2>
           <p className="cases-intro">
-            Four projects completed throughout the semester. Each explores a different
-            design challenge and context.
+            Four projects completed throughout the semester. <br />
+            Each explores a different design challenge and context.
           </p>
 
           <div className="cards-grid">
