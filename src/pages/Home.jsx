@@ -77,14 +77,14 @@ export default function Home() {
           <h2 className="section-title">How I Work</h2>
           <p className="work-intro">
             I'm currently enrolled in a UI design and analyis course at the University of Ottawa,
-            where I'm building a foundation in evidence-based design practice.
+            where I'm building on my exisiting foundation in evidence-based design practice.
           </p>
 
           <div className="process-grid">
             <div className="process-step">
               <div className="step-number">01</div>
               <h3>Research & Understand</h3>
-              <p>I start by understanding the project software design — who the users are, what catches their attention, and what the goal of the webpage.</p>
+              <p>I start by understanding the project software design — who the users are, what catches their attention, and what the goal of the webpage is.</p>
             </div>
             <div className="process-step">
               <div className="step-number">02</div>
