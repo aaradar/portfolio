@@ -4,12 +4,13 @@ import './Home.css';
 
 const caseStudies = [
   {
-    id: 1,
-    title: 'Service Site',
-    subtitle: 'Design 1',
-    description: 'A clean, user-centred service website — e.g. a dental clinic or bike repair shop.',
-    emoji: '🦷',
-    tag: 'Web Design',
+  id: 1,
+  title: 'Service Site',
+  subtitle: 'Design 1',
+  description: 'A clean, user-centred service website — e.g. a dental clinic or bike repair shop.',
+  emoji: '🦷',
+  tag: 'Web Design',
+  link: 'https://aaradar.github.io/techfix/',
   },
   {
     id: 2,
@@ -111,16 +112,35 @@ export default function Home() {
 
           <div className="cards-grid">
             {caseStudies.map((c) => (
-              <Link to={`/case/${c.id}`} key={c.id} className="card">
-                <div className="card-emoji">{c.emoji}</div>
-                <div className="card-tag">{c.tag}</div>
-                <div className="card-sub">{c.subtitle}</div>
-                <h3 className="card-title">{c.title}</h3>
-                <p className="card-desc">{c.description}</p>
-                <div className="card-cta">
-                  View Case Study <span className="arrow">→</span>
-                </div>
-              </Link>
+              c.link ? (
+                <a
+                  href={c.link}
+                  key={c.id}
+                  className="card"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card-emoji">{c.emoji}</div>
+                  <div className="card-tag">{c.tag}</div>
+                  <div className="card-sub">{c.subtitle}</div>
+                  <h3 className="card-title">{c.title}</h3>
+                  <p className="card-desc">{c.description}</p>
+                  <div className="card-cta">
+                    View Case Study <span className="arrow">→</span>
+                  </div>
+                </a>
+              ) : (
+                <Link to={`/case/${c.id}`} key={c.id} className="card">
+                  <div className="card-emoji">{c.emoji}</div>
+                  <div className="card-tag">{c.tag}</div>
+                  <div className="card-sub">{c.subtitle}</div>
+                  <h3 className="card-title">{c.title}</h3>
+                  <p className="card-desc">{c.description}</p>
+                  <div className="card-cta">
+                    View Case Study <span className="arrow">→</span>
+                  </div>
+                </Link>
+              )
             ))}
           </div>
         </div>
