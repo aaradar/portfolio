@@ -8,7 +8,7 @@ const caseStudies = [
   title: 'Service Site',
   subtitle: 'Design 1',
   description: 'A clean, user-centred service website — e.g. a dental clinic or bike repair shop.',
-  emoji: '🦷',
+  emoji: '💻',
   tag: 'Web Design',
   link: 'https://aaradar.github.io/techfix/',
   },
