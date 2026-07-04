@@ -60,7 +60,7 @@ export default function Home() {
         <h1 className="hero-name">Hello, I'm <em>Alexander Radar</em></h1>
         <p className="hero-bio">
           I'm a 3rd year Computer Science student at University of Ottawa<br />with a strong interest in artistic design and web development.<br />
-          My favourite activity is digital art. In my opinion UX/UI is a form art,<br />which furthers my interests in studying web design.
+          My favourite activity is digital art. In my opinion UX/UI is a form art,<br />which furthers my interests in studying UI/UX.
         </p>
         <div className="hero-tags">
           <span className="chip">User Research</span>
