@@ -28,7 +28,7 @@ const caseStudies = [
     description: 'A full NHL Leafs Shop shopping experience built around conversion-focused UI/UX principles.',
     emoji: '🏒',
     tag: 'E-Commerce',
-    link: 'https://aaradar.github.io/leafsite/',
+    link: 'https://aaradar.github.io/leafshop/',
   },
   {
     id: 4,
