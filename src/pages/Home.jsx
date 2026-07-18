@@ -14,7 +14,7 @@ const caseStudies = [
   },
   {
     id: 2,
-    title: 'Memory Game',
+    title: 'Sequencer Memory Game',
     subtitle: 'Design 2',
     description: 'An interactive tile memory card game combining visual design with engaging UX patterns.',
     emoji: '🔲',
@@ -23,7 +23,7 @@ const caseStudies = [
   },
   {
     id: 3,
-    title: 'E-Commerce Site',
+    title: 'Leafs Merchandise Store',
     subtitle: 'Design 3',
     description: 'A full NHL Leafs Shop shopping experience built around conversion-focused UI/UX principles.',
     emoji: '🏒',
@@ -32,11 +32,12 @@ const caseStudies = [
   },
   {
     id: 4,
-    title: 'Analytics Dashboard',
+    title: 'NHL Analytics Dashboard',
     subtitle: 'Design 4',
-    description: 'A data-rich analytics interface using charts, KPIs, and information hierarchy.',
+    description: 'A data-rich hockey analytics visualization using bar and line charts to track top players stats in the NHL',
     emoji: '📊',
     tag: 'Data Visualization',
+    link: 'https://aaradar.github.io/nhl-dashboard/',
   },
 ];
 
